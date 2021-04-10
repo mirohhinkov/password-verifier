@@ -1,0 +1,20 @@
+{
+  "name": "password-verifier",
+  "version": "1.0.0",
+  "description": "Password verification test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "keywords": [
+    "password",
+    "verifier",
+    "verification",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.7.0"
+  }
+}
