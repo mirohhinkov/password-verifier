@@ -4,7 +4,7 @@ Thank you for expressing an interest in joining our engineering team, here at Th
 
 ## Introduction
 
-The purpose of this exercise is to see how you approach a problem and how you solve it. We're interested to see how you structure your code, your command of the language and good design and testing principles - please bear this in mind throughout.
+The purpose of this exercise is to see how you approach a problem. We're interested to see how you structure your code, your command of the language and good design and testing principles - please bear this in mind throughout.
 
 ### Hint
 Show your workings - good commit messages, test first approach and clean code principles will set you off on the right track.
@@ -36,8 +36,15 @@ These are;
 
 ## Ready to begin?
 
-Fork the repository, solve the challenge and let us know via `recruitment@thejoyclub.com` and
-`paul@thejoyclub.com` so we can take a look, providing a link to your fork.
+Fork the repository, solve the challenge and let us know via `recruitment@thejoyclub.com` providing a link to your fork.
 
 Alternatively, if you're just looking for a nice little challenge to do, without submitting to us,
 again that's cool! Enjoy the kata, you can find more at https://github.com/garora/TDD-Katas
+
+## Design Challenge (Senior Engineer and Above)
+
+We want to see how you approach the scaling and processing of data. The problem is as follows...
+
+You are tasked with integrating to a marketing automation platform/email marketing service. It is a greenfield piece of work and involves a standard API integration. The use case is that when a user signs up, they will receive an onboarding email, and vice-versa, will then receive emails every 7 days of membership with different templates and content.
+
+Design and document your ideology and ways to ensure that this integration will scale, ensuring delivery of communication ready to talk us through it at the interview stage.
