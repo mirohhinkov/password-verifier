@@ -4,7 +4,7 @@ module.exports = (pasw) => {
     new RegExp(".{8,}"),
     new RegExp("[A-Z]"),
     new RegExp("[a-z]"),
-    new RegExp("[0-5]"),
+    new RegExp("[0-9]"),
   ];
   const errMessages = [
     "Password should contain at least 8 characters",
