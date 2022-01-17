@@ -1,7 +1,7 @@
 const passVerifier = require("../../passVerifier");
 
 //Test for null
-test1 = passVerifier(null);
+let test1 = passVerifier(null);
 describe("password verifyer", () => {
   it("should be an error message: ", () => {
     expect(test1).toBe("Password can not be null");
@@ -25,7 +25,7 @@ describe("password verifyer", () => {
 });
 
 //Test for more then 8 no number
-test4 = passVerifier("aabbbCCDD");
+let test4 = passVerifier("aabbbCCDD");
 describe("password verifyer", () => {
   it("should be true: ", () => {
     expect(test4).toBe(true);
